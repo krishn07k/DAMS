@@ -1,0 +1,165 @@
+.forgot_pwd_body{
+    zoom: 85%;
+}
+
+.main_box_forgot_pwd{
+    width: 600px;
+    height: 787px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background: #fdfdfd;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.lock_icon{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 59px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.forgot_pwd_title{
+    width: 353px;
+    height: 40px;
+    position: absolute;
+    top:169px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.sub_content{
+    width: 416px;
+    height: 60px;
+    position: absolute;
+    top:269px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.email_box{
+    width: 346px;
+    height: 50px;
+    position: absolute;
+    top:391px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 4px solid #000000;
+}
+
+.email_box_icon{
+    float: left;
+}
+
+.email_textbox{
+    float: right;
+}
+
+.textbox{
+    width: 280px;
+    height: 42px;
+    font-family: Oxygen;
+    font-style: normal;
+    font-size: 24px;
+    border-style: none;
+}
+
+.reset_button_container{
+    width: 107px;
+    height: 45px;
+    position: absolute;
+    top:553px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reset_button{
+    width: 100%;
+    height: 100%;
+    font-family: Oxygen;
+    font-style: normal;
+    font-size: 24px;
+    background-color: #62E06E;
+    border: 4px solid #000000;
+    border-radius: 10px;
+    opacity: 60%;
+}
+
+.reset_button:hover{
+    opacity: 100%;
+}
+
+.extra_text{
+    width: 24px;
+    height: 30px;
+    position: absolute;
+    top:633px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.sign_up_link_container{
+    width: 225px;
+    height: 30px;
+    position: absolute;
+    top:698px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sign_up_link{
+    width: 100%;
+    height: 100%;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+}
