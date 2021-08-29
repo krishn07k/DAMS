@@ -1,2 +1,2 @@
 # DAMS-project
-Project space for collecring all code related files for SD lab
+Project space for collecting all code related files for SD lab
