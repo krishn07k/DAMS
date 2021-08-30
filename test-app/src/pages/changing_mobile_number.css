@@ -1,0 +1,172 @@
+.chno_body{
+    zoom: 85%;
+}
+
+.chno_main_box{
+    width: 740px;
+    height: 740px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+    border: 3px solid #000000;
+    border-radius: 10px; 
+}
+
+.chno_title_icon{
+    height: 50px;
+    width: 70px;
+    position: absolute;
+    top: 70px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.chno_title{
+    width: 350px;
+    height: 40px;
+    position: absolute;
+    top: 125px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.chno_sub_title{
+    width: 360px;
+    height: 35px;
+    position: absolute;
+    top: 225px;
+    bottom: 0px;
+    left: 108px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Oxygen;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 35px;
+}
+
+.chno_text1{
+    width: 370px;
+    height: 30px;
+    position: absolute;
+    top: 295px;
+    left: 108px;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.chno_new_number{
+    width: 370px;
+    height: 45px;
+    position: absolute;
+    top: 365px;
+    bottom: 0px;
+    right: 140px;
+    left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #000000;
+}
+
+.chno_number_icon{
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin: 7.5px;
+}
+
+.chno_number_icon_image{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    
+}
+
+.chno_new_number_text{
+    width: 300px;
+    height: 42px;
+    float: right;
+}
+
+input{
+    width: 295px;
+    height: 100%;
+    border-style: none;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.chno_confirm_new_number{
+    width: 370px;
+    height: 45px;
+    position: absolute;
+    top: 530px;
+    bottom: 0px;
+    right: 140px;
+    left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #000000;
+}
+
+.chno_text2{
+    width: 370px;
+    height: 30px;
+    position: absolute;
+    top: 460px;
+    left: 108px;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.chno_confirm_new_number_text{
+    width: 300px;
+    height: 42px;
+    float: right;
+}
+
+.chno_reset_button_container{
+    width: 107px;
+    height: 45px;
+    position: absolute;
+    top: 625px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.chno_reset_button{
+    width: 100%;
+    height: 100%;
+    font-family: Oxygen;
+    font-style: normal;
+    font-size: 24px;
+    background-color: #62E06E;
+    border: 4px solid #000000;
+    border-radius: 10px;
+}
