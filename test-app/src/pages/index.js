@@ -23,7 +23,6 @@ import License_page from './license_page';
 import Notifications_page from './notifications_page';
 import Help_page from './help_page';
 import Help_center from './help_center';
-
 import schedular from './schedular';
 
 
