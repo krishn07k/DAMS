@@ -1,0 +1,296 @@
+.acset_body{
+    zoom: 85%;
+}
+
+.acset_main_box{
+    width: 600px;
+    height: 740px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+    border: 3px solid #000000;
+    border-radius: 10px; 
+}
+
+.acset_title{
+    width: 250px;
+    height: 40px;
+    position: absolute;
+    top: 125px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+
+
+.acset_lock_icon{
+    
+    top: 159px;
+    bottom: 0px;
+    left : 20px;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+}
+
+.acset_lock_icon_image{
+    
+    top: 159px;
+    bottom: 0px;
+    left : 20px;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+}
+
+.acset_phone_icon{
+    
+    top: 185px;
+    bottom: 0px;
+    left : 22px;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+}
+
+.acset_phone_icon_image{
+    
+    top: 185px;
+    bottom: 0px;
+    left : 22px;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+}
+
+.acset_id_icon{
+    
+    top: 136px;
+    bottom: 0px;
+    left : 22px;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    
+}
+
+.acset_id_icon_image{
+    
+    top: 136px;
+    bottom: 0px;
+    left : 22px;
+    width: 35px;
+    height: 35px;
+    position : absolute;
+   
+    
+}
+
+.acset_deleteaccount_icon{
+    
+    top: 206px;
+    bottom: 0px;
+    left : 22px;
+    width: 35px;
+    height: 35px;
+    position : absolute;
+}
+
+.acset_deleteaccount_icon_image{
+    
+    top:206px;
+    bottom: 0px;
+    left : 22px;
+    width: 35px;
+    height: 35px;
+    position : absolute;
+}
+
+.acset_reset_button_container1{
+    width: 400px;
+    height: 45px;
+    position: absolute;
+    top: 270px;
+    bottom: 0px;
+    right: 0px;
+    left :0px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.acset_reset_button1{
+    width: 100%;
+    height: 100%;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    background-color: #28afeedc;
+    border: 4px line #000000;
+    position: relative;
+    float : left;
+    text-align:left;
+    border-radius: 10px;
+    right: 0px;
+    left :0px;
+}
+
+
+.acset_reset_button_container2{
+    width: 400px;
+    height: 45px;
+    position: absolute;
+    top: 315px;
+    bottom: 0px;
+    right: 0px;
+    left :0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.acset_reset_button2{
+    width: 100%;
+    height: 100%;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    background-color: #28afeedc;
+    border: 4px line #000000;
+    border-radius: 10px;
+    text-align:left;
+    right: 0px;
+    left :0px;
+}
+
+.acset_reset_button_container3{
+    width: 400px;
+    height: 45px;
+    position: absolute;
+    top: 360px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.acset_reset_button3{
+    width: 100%;
+    height: 100%;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    background-color: #28afeedc;
+    border: 4px line #000000;
+    border-radius: 10px;
+    text-align:left;
+}
+
+.acset_reset_button_container4{
+    width: 400px;
+    height: 45px;
+    position: absolute;
+    top: 405px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.acset_reset_button4{
+    width: 100%;
+    height: 100%;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    float : left;
+    text-align:left;
+    background-color: #28afeedc;
+    border: 4px line #000000;
+    border-radius: 10px;
+}
+
+.acset_symbol1{
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    top: 270px;
+    bottom: 0px;
+    right: 0px;
+    left: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.acset_symbol2{
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    top: 315px;
+    bottom: 0px;
+    right: 0px;
+    left: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.acset_symbol3{
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    top: 360px;
+    bottom: 0px;
+    right: 0px;
+    left: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.acset_symbol4{
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    top: 405px;
+    bottom: 0px;
+    right: 0px;
+    left: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 32px;
+    line-height: 40px;
+}
