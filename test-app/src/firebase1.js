@@ -8,10 +8,11 @@ import {
   signInWithPopup,
   signInWithEmailAndPassword,
   createUserWithEmailAndPassword,
+  sendPasswordResetEmail,
 } from "firebase/auth";
 
-import { getFirestore} from "firebase/firestore/lite";
-import { collection, addDoc } from "firebase/firestore"; 
+import { getFirestore } from "firebase/firestore/lite";
+import { collection, addDoc } from "firebase/firestore";
 
 //var firebase = require("firebase");
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
@@ -22,7 +23,7 @@ const firebaseConfig = {
   storageBucket: "dams-ad670.appspot.com",
   messagingSenderId: "971713090975",
   appId: "1:971713090975:web:1fd25773c8cfdc48f359aa",
-  measurementId: "G-74Z9KHX00F"
+  measurementId: "G-74Z9KHX00F",
 };
 
 const app = initializeApp(firebaseConfig);
@@ -30,16 +31,13 @@ const auth = getAuth(app);
 const db = getFirestore(app);
 const googleProvider = new GoogleAuthProvider();
 
-
 const signInWithGoogle = async () => {
-  try{
+  try {
     const res = await signInWithPopup(auth, googleProvider);
-  }
-  catch (err) {
+  } catch (err) {
     console.error(err);
   }
 };
-
 
 const withEmailAndPassword = async (email, password) => {
   try {
@@ -50,7 +48,6 @@ const withEmailAndPassword = async (email, password) => {
   }
 };
 
-
 const registerWithEmailAndPassword = async (email, password) => {
   try {
     const res = await createUserWithEmailAndPassword(auth, email, password);
@@ -59,10 +56,9 @@ const registerWithEmailAndPassword = async (email, password) => {
   }
 };
 
-
-const sendPasswordResetEmail = async (email) => {
+const asendPasswordResetEmail = async (email) => {
   try {
-    await firebase.auth().sendPasswordResetEmail(email);
+    await sendPasswordResetEmail(auth, email, null);
     alert("Password reset link sent");
   } catch (err) {
     console.error(err);
@@ -70,11 +66,9 @@ const sendPasswordResetEmail = async (email) => {
   }
 };
 
-
 const logout = () => {
   auth.signOut();
 };
-
 
 export {
   app,
@@ -83,6 +77,6 @@ export {
   signInWithGoogle,
   signInWithEmailAndPassword,
   registerWithEmailAndPassword,
-  sendPasswordResetEmail,
+  asendPasswordResetEmail,
   logout,
 };

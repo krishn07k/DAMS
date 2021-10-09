@@ -24,6 +24,7 @@ import contact_us from "./contact_us";
 import change_userid from "./changing_user_id-h";
 import ceum from "./change_email_using_mobile-h";
 import signup_dentist from "./signup_dentist-k";
+import signup_general_user from "./signup_general_user-k";
 
 function App() {
   return (
@@ -55,6 +56,11 @@ function App() {
           <Route exact path="/change_mobile" component={change_mobile} />
           <Route exact path="/delete_acc" component={delete_account} />
           <Route exact path="/signup_dentist" component={signup_dentist} />
+          <Route
+            exact
+            path="/signup_general_user"
+            component={signup_general_user}
+          />
         </Switch>
       </Router>
     </div>

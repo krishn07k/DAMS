@@ -89,7 +89,7 @@ function Login() {
             </button>
 
             <br />
-            <button
+            {/* <button
               type="submit"
               form="form1"
               value="Submit"
@@ -97,7 +97,7 @@ function Login() {
               onClick={signInWithGoogle}
             >
               LOGIN WITH GOOGLE
-            </button>
+            </button> */}
           </div>
         </div>
         <div>

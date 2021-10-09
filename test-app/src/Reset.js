@@ -2,11 +2,11 @@ import React, { useEffect, useState } from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { useHistory } from "react-router";
 import { Link } from "react-router-dom";
-import { auth, sendPasswordResetEmail } from "./firebase1";
+import { auth, asendPasswordResetEmail } from "./firebase1";
 import "./Reset.css";
 function Reset() {
   const [email, setEmail] = useState("");
-  const [user, loading, /*error*/] = useAuthState(auth);
+  const [user, loading /*error*/] = useAuthState(auth);
   const history = useHistory();
   useEffect(() => {
     if (loading) return;
@@ -24,9 +24,9 @@ function Reset() {
         />
         <button
           className="reset__btn"
-          onClick={() => sendPasswordResetEmail(email)}
+          onClick={() => asendPasswordResetEmail(email)}
         >
-          Send password reset email
+          <Link to="/">Send password reset email</Link>
         </button>
         <div>
           Don't have an account? <Link to="/register">Register</Link> now.
