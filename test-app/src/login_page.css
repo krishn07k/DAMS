@@ -1,11 +1,11 @@
-html,
+/* html,
 body,
 .container {
   height: 100%;
   min-height: 100%;
-}
+} */
 body {
-  background: #53cde2;
+  /* background: #53cde2; */
 }
 .icon_den {
   height: 75px;
