@@ -47,10 +47,13 @@ function Dashboard() {
     //condition checking to change state from true to false and vice versa
     menuCollapse ? setMenuCollapse(false) : setMenuCollapse(true);
   };
+  const queryParams = new URLSearchParams(window.location.search);
 
+  const email = queryParams.get("email");
   const [user, loading, error] = useAuthState(auth);
   const [name, setName] = useState("");
   const history = useHistory();
+  console.log(email);
   const fetchUserName = async () => {
     try {
       // const query = await db
@@ -92,7 +95,7 @@ function Dashboard() {
             <Menu iconShape="square">
               <MenuItem icon={<FaUser />}>
                 {" "}
-                <Link to="/profile_pg">Profile</Link>
+                <Link to={"/profile_pg?email=" + email}>Profile</Link>
               </MenuItem>
               <MenuItem icon={<FaCalendar />}>Appointment</MenuItem>
               <MenuItem icon={<FaCalendarCheck />}>Follow-Ups</MenuItem>

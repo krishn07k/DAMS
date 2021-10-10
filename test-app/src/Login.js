@@ -18,7 +18,7 @@ function Login() {
       // maybe trigger a loading screen
       return;
     }
-    if (user) history.replace("/dashboard");
+    if (user) history.replace("/dashboard?email=" + email);
   }, [user, loading]);
   return (
     <div class="signIn_body">

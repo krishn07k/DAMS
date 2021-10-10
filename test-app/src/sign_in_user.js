@@ -21,7 +21,7 @@ function sign_in_user() {
       // maybe trigger a loading screen
       return;
     }
-    if (user) history.replace("/dashboard");
+    if (user) history.replace("/sign_in");
   }, [user, loading]);
   return (
     <div class="signIn_body">

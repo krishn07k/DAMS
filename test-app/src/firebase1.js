@@ -11,7 +11,7 @@ import {
   sendPasswordResetEmail,
 } from "firebase/auth";
 
-import { getFirestore } from "firebase/firestore/lite";
+import { getFirestore } from "firebase/firestore";
 import { collection, addDoc } from "firebase/firestore";
 
 //var firebase = require("firebase");
@@ -71,6 +71,7 @@ const logout = () => {
 };
 
 export {
+  db,
   app,
   auth,
   firebaseConfig,
