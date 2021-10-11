@@ -102,7 +102,7 @@ function Dashboard() {
 
               <MenuItem icon={<FaCalendarPlus />}>
                 {" "}
-                <a href="http://localhost:3000/schedular">Schedular</a>
+                <Link to={"/schedular?email=" + email}>Schedular</Link>
               </MenuItem>
               <MenuItem icon={<FaStar />}>Reviews</MenuItem>
 
