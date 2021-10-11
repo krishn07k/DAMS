@@ -41,7 +41,7 @@ function Signup_dentist() {
 
   useEffect(() => {
     if (loading) return;
-    if (user) history.replace("/dashboard");
+    if (user) history.replace("/Dashboard?email=" + email);
   }, [user, loading]);
 
   return (
