@@ -151,265 +151,282 @@ function Dashboard() {
 
     if (mon1 !== undefined){
       if (mon1_bkd === false){
-        mon_a.style.backgroundColor = "green";
+        mon_a.value = id;
+        mon_a.style.backgroundColor = "#57CC99";
       }
       else{
-        mon_a.style.backgroundColor = "green";
+        mon_a.style.backgroundColor = "#FE8F8F";
       }
     }
     else{
-      mon_a.style.backgroundColor = "black";
+      mon_a.style.backgroundColor = "#423F3E";
     }
-
 
     if (mon2 !== undefined){
       if (mon2_bkd === false){
-        mon_b.style.backgroundColor = "green";
+        mon_b.value = id;
+        mon_b.style.backgroundColor = "#57CC99";
       }
       else{
-        mon_b.style.backgroundColor = "green";
+        mon_b.style.backgroundColor = "#FE8F8F";
       }
     }
     else{
-      mon_b.style.backgroundColor = "black";
+      mon_b.style.backgroundColor = "#423F3E";
     }
-
 
     if (mon3 !== undefined){
       if (mon3_bkd === false){
-        mon_c.style.backgroundColor = "green";
+        mon_c.value = id;
+        mon_c.style.backgroundColor = "#57CC99";
       }
       else{
-        mon_c.style.backgroundColor = "green";
+        mon_c.style.backgroundColor = "#FE8F8F";
       }
     }
     else{
-      mon_c.style.backgroundColor = "black";
+      mon_c.style.backgroundColor = "#423F3E";
     }
-
 
     if (tue1 !== undefined){
       if (tue1_bkd === false){
-        tue_a.style.backgroundColor = "green";
+        tue_a.value = id;
+        tue_a.style.backgroundColor = "#57CC99";
       }
       else{
-        tue_a.style.backgroundColor = "green";
+        tue_a.style.backgroundColor = "#FE8F8F";
       }
     }
     else{
-      tue_a.style.backgroundColor = "black";
+      tue_a.style.backgroundColor = "#423F3E";
     }
-
 
     if (tue2 !== undefined){
       if (tue2_bkd === false){
-        tue_b.style.backgroundColor = "green";
+        tue_b.value = id;
+        tue_b.style.backgroundColor = "#57CC99";
       }
       else{
-        tue_b.style.backgroundColor = "green";
+        tue_b.style.backgroundColor = "#FE8F8F";
       }
     }
     else{
-      tue_b.style.backgroundColor = "black";
+      tue_b.style.backgroundColor = "#423F3E";
     }
-
 
     if (tue3 !== undefined){
       if (tue3_bkd === false){
-        tue_c.style.backgroundColor = "green";
+        tue_c.value = id;
+        tue_c.style.backgroundColor = "#57CC99";
       }
       else{
-        tue_c.style.backgroundColor = "green";
+        tue_c.style.backgroundColor = "#FE8F8F";
       }
     }
     else{
-      tue_c.style.backgroundColor = "black";
+      tue_c.style.backgroundColor = "#423F3E";
     }
-
 
     if (wed1 !== undefined){
       if (wed1_bkd === false){
-        wed_a.style.backgroundColor = "green";
+        wed_a.value = id;
+        wed_a.style.backgroundColor = "#57CC99";
       }
       else{
-        wed_a.style.backgroundColor = "green";
+        wed_a.style.backgroundColor = "#FE8F8F";
       }
     }
     else{
-      wed_a.style.backgroundColor = "black";
+      wed_a.style.backgroundColor = "#423F3E";
     }
 
     if (wed2 !== undefined){
       if (wed2_bkd === false){
-        wed_b.style.backgroundColor = "green";
+        wed_b.value = id;
+        wed_b.style.backgroundColor = "#57CC99";
       }
       else{
-        wed_b.style.backgroundColor = "green";
+        wed_b.style.backgroundColor = "#FE8F8F";
       }
     }
     else{
-      wed_b.style.backgroundColor = "black";
+      wed_b.style.backgroundColor = "#423F3E";
     }
 
     if (wed3 !== undefined){
       if (wed3_bkd === false){
-        wed_c.style.backgroundColor = "green";
+        wed_c.value = id;
+        wed_c.style.backgroundColor = "#57CC99";
       }
       else{
-        wed_c.style.backgroundColor = "green";
+        wed_c.style.backgroundColor = "#FE8F8F";
       }
     }
     else{
-      wed_c.style.backgroundColor = "black";
+      wed_c.style.backgroundColor = "#423F3E";
     }
-
 
     if (thu1 !== undefined){
       if (thu1_bkd === false){
-        thu_a.style.backgroundColor = "green";
+        thu_a.value = id;
+        thu_a.style.backgroundColor = "#57CC99";
       }
       else{
-        thu_a.style.backgroundColor = "green";
+        thu_a.style.backgroundColor = "#FE8F8F";
       }
     }
     else{
-      thu_a.style.backgroundColor = "black";
+      thu_a.style.backgroundColor = "#423F3E";
     }
 
     if (thu2 !== undefined){
       if (thu2_bkd === false){
-        thu_b.style.backgroundColor = "green";
+        thu_b.value = id;
+        thu_b.style.backgroundColor = "#57CC99";
       }
       else{
-        thu_b.style.backgroundColor = "green";
+        thu_b.style.backgroundColor = "#FE8F8F";
       }
     }
     else{
-      thu_b.style.backgroundColor = "black";
+      thu_b.style.backgroundColor = "#423F3E";
     }
 
     if (thu3 !== undefined){
       if (thu3_bkd === false){
-        thu_c.style.backgroundColor = "green";
+        thu_c.value = id;
+        thu_c.style.backgroundColor = "#57CC99";
       }
       else{
-        thu_c.style.backgroundColor = "green";
+        thu_c.style.backgroundColor = "#FE8F8F";
       }
     }
     else{
-      thu_c.style.backgroundColor = "black";
+      thu_c.style.backgroundColor = "#423F3E";
     }
-
 
     if (fri1 !== undefined){
       if (fri1_bkd === false){
-        fri_a.style.backgroundColor = "green";
+        fri_a.value = id;
+        fri_a.style.backgroundColor = "#57CC99";
       }
       else{
-        fri_a.style.backgroundColor = "green";
+        fri_a.style.backgroundColor = "#FE8F8F";
       }
     }
     else{
-      fri_a.style.backgroundColor = "black";
+      fri_a.style.backgroundColor = "#423F3E";
     }
 
     if (fri2 !== undefined){
       if (fri2_bkd === false){
-        fri_b.style.backgroundColor = "green";
+        fri_b.value = id;
+        fri_b.style.backgroundColor = "#57CC99";
       }
       else{
-        fri_b.style.backgroundColor = "green";
+        fri_b.style.backgroundColor = "#FE8F8F";
       }
     }
     else{
-      fri_b.style.backgroundColor = "black";
+      fri_b.style.backgroundColor = "#423F3E";
     }
 
     if (fri3 !== undefined){
       if (fri3_bkd === false){
-        fri_c.style.backgroundColor = "green";
+        fri_c.value = id;
+        fri_c.style.backgroundColor = "#57CC99";
       }
       else{
-        fri_c.style.backgroundColor = "green";
+        fri_c.style.backgroundColor = "#FE8F8F";
       }
     }
     else{
-      fri_c.style.backgroundColor = "black";
+      fri_c.style.backgroundColor = "#423F3E";
     }
-
 
     if (sat1 !== undefined){
       if (sat1_bkd === false){
-        sat_a.style.backgroundColor = "green";
+        sat_a.value = id;
+        sat_a.style.backgroundColor = "#57CC99";
       }
       else{
-        sat_a.style.backgroundColor = "green";
+        sat_a.style.backgroundColor = "#FE8F8F";
       }
     }
     else{
-      sat_a.style.backgroundColor = "black";
+      sat_a.style.backgroundColor = "#423F3E";
     }
 
     if (sat2 !== undefined){
       if (sat2_bkd === false){
-        sat_b.style.backgroundColor = "green";
+        sat_b.value = id;
+        sat_b.style.backgroundColor = "#57CC99";
       }
       else{
-        sat_b.style.backgroundColor = "green";
+        sat_b.style.backgroundColor = "#FE8F8F";
       }
     }
     else{
-      sat_b.style.backgroundColor = "black";
+      sat_b.style.backgroundColor = "#423F3E";
     }
 
     if (sat3 !== undefined){
       if (sat3_bkd === false){
-        sat_c.style.backgroundColor = "green";
+        sat_c.value = id;
+        sat_c.style.backgroundColor = "#57CC99";
       }
       else{
-        sat_c.style.backgroundColor = "green";
+        sat_c.style.backgroundColor = "#FE8F8F";
       }
     }
     else{
-      sat_c.style.backgroundColor = "black";
+      sat_c.style.backgroundColor = "#423F3E";
     }
-
 
     if (sun1 !== undefined){
       if (sun1_bkd === false){
-        sun_a.style.backgroundColor = "green";
+        sun_a.value = id;
+        sun_a.style.backgroundColor = "#57CC99";
       }
       else{
-        sun_a.style.backgroundColor = "green";
+        sun_a.style.backgroundColor = "#FE8F8F";
       }
     }
     else{
-      sun_a.style.backgroundColor = "black";
+      sun_a.style.backgroundColor = "#423F3E";
     }
 
     if (sun2 !== undefined){
       if (sun2_bkd === false){
-        sun_b.style.backgroundColor = "green";
+        sun_b.value = id;
+        sun_b.style.backgroundColor = "#57CC99";
       }
       else{
-        sun_b.style.backgroundColor = "green";
+        sun_b.style.backgroundColor = "#FE8F8F";
       }
     }
     else{
-      sun_b.style.backgroundColor = "black";
+      sun_b.style.backgroundColor = "#423F3E";
     }
 
     if (sun3 !== undefined){
       if (sun3_bkd === false){
-        sun_c.style.backgroundColor = "green";
+        sun_c.value = id;
+        sun_c.style.backgroundColor = "#57CC99";
       }
       else{
-        sun_c.style.backgroundColor = "green";
+        sun_c.style.backgroundColor = "#FE8F8F";
       }
     }
     else{
-      sun_c.style.backgroundColor = "black";
+      sun_c.style.backgroundColor = "#423F3E";
     }
+  }
+
+
+  const test = () => {
+    var f = document.getElementById("mon_a");
+    console.log(f.value);
   }
 
   return ( 
@@ -473,6 +490,10 @@ function Dashboard() {
 
         <div className="dsh_doc_schedule">
 
+          <div className="dsh_user_input">
+            <textarea placeholder="Describe your problem here" className="dsh_user_input_box"></textarea>
+          </div>
+
           <table className="dsh_main_table">
             <tr>
               <th>DAY</th>
@@ -483,13 +504,13 @@ function Dashboard() {
             <tr>
               <td>Monday</td>
               <td>
-                <tabl>
+                <table>
                   <tr>
-                    <td><button className="dsh_time" id="mon_a"></button></td>
-                    <td><button className="dsh_time" id="mon_b"></button></td>
-                    <td><button className="dsh_time" id="mon_c"></button></td>
+                      <td><button className="dsh_time" id="mon_a" onClick={test}></button></td>
+                      <td><button className="dsh_time" id="mon_b"></button></td>
+                      <td><button className="dsh_time" id="mon_c"></button></td>
                   </tr>
-                </tabl>
+                </table>
               </td>
               <td>
                 <input type="date" step="7" min="2021-10-18" ></input>
@@ -592,11 +613,6 @@ function Dashboard() {
               </td>
             </tr>
           </table>
-
-          <div className="dsh_user_input">
-            <textarea placeholder="Describe your problem here" className="dsh_user_input_box">
-            </textarea>
-          </div>
         </div>
 
       </div>
