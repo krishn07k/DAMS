@@ -77,6 +77,7 @@ function Schedular() {
 
     updateDoc(doc(db, "doc", user), {
       doc_mon_1: mon_1,
+      doc_m1_bkd: false
     });
   };
 
@@ -95,6 +96,7 @@ function Schedular() {
 
     updateDoc(doc(db, "doc", user), {
       doc_mon_2: mon_2,
+      doc_m2_bkd: false
     });
   };
 
@@ -113,6 +115,7 @@ function Schedular() {
 
     updateDoc(doc(db, "doc", user), {
       doc_mon_3: mon_3,
+      doc_m3_bkd: false
     });
   };
 
@@ -131,6 +134,7 @@ function Schedular() {
 
     updateDoc(doc(db, "doc", user), {
       doc_tue_1: tue_1,
+      doc_tu1_bkd: false
     });
   };
 
@@ -149,6 +153,7 @@ function Schedular() {
 
     updateDoc(doc(db, "doc", user), {
       doc_tue_2: tue_2,
+      doc_tu2_bkd: false
     });
   };
 
@@ -167,6 +172,7 @@ function Schedular() {
 
     updateDoc(doc(db, "doc", user), {
       doc_tue_3: tue_3,
+      doc_tu3_bkd: false
     });
   };
 
@@ -185,6 +191,7 @@ function Schedular() {
 
     updateDoc(doc(db, "doc", user), {
       doc_wed_1: wed_1,
+      doc_w1_bkd: false
     });
   };
 
@@ -203,6 +210,7 @@ function Schedular() {
 
     updateDoc(doc(db, "doc", user), {
       doc_wed_2: wed_2,
+      doc_w2_bkd: false
     });
   };
 
@@ -221,6 +229,7 @@ function Schedular() {
 
     updateDoc(doc(db, "doc", user), {
       doc_wed_3: wed_3,
+      doc_w3_bkd: false
     });
   };
 
@@ -239,6 +248,7 @@ function Schedular() {
 
     updateDoc(doc(db, "doc", user), {
       doc_thu_1: thu_1,
+      doc_th1_bkd: false
     });
   };
 
@@ -257,6 +267,7 @@ function Schedular() {
 
     updateDoc(doc(db, "doc", user), {
       doc_thu_2: thu_2,
+      doc_th2_bkd: false
     });
   };
 
@@ -275,6 +286,7 @@ function Schedular() {
 
     updateDoc(doc(db, "doc", user), {
       doc_thu_3: thu_3,
+      doc_th3_bkd: false
     });
   };
 
@@ -293,6 +305,7 @@ function Schedular() {
 
     updateDoc(doc(db, "doc", user), {
       doc_fri_1: fri_1,
+      doc_f1_bkd: false
     });
   };
 
@@ -311,6 +324,7 @@ function Schedular() {
 
     updateDoc(doc(db, "doc", user), {
       doc_fri_2: fri_2,
+      doc_f2_bkd: false
     });
   };
 
@@ -329,6 +343,7 @@ function Schedular() {
 
     updateDoc(doc(db, "doc", user), {
       doc_fri_3: fri_3,
+      doc_f3_bkd: false
     });
   };
 
@@ -347,6 +362,7 @@ function Schedular() {
 
     updateDoc(doc(db, "doc", user), {
       doc_sat_1: sat_1,
+      doc_sa1_bkd: false
     });
   };
 
@@ -365,6 +381,7 @@ function Schedular() {
 
     updateDoc(doc(db, "doc", user), {
       doc_sat_2: sat_2,
+      doc_sa2_bkd: false
     });
   };
 
@@ -383,6 +400,7 @@ function Schedular() {
 
     updateDoc(doc(db, "doc", user), {
       doc_sat_3: sat_3,
+      doc_sa3_bkd: false
     });
   };
 
@@ -401,6 +419,7 @@ function Schedular() {
 
     updateDoc(doc(db, "doc", user), {
       doc_sun_1: sun_1,
+      doc_su1_bkd: false
     });
   };
 
@@ -419,6 +438,7 @@ function Schedular() {
 
     updateDoc(doc(db, "doc", user), {
       doc_sun_2: sun_2,
+      doc_su2_bkd: false
     });
   };
 
@@ -437,6 +457,7 @@ function Schedular() {
 
     updateDoc(doc(db, "doc", user), {
       doc_sun_3: sun_3,
+      doc_su3_bkd: false
     });
   };
 

@@ -38,11 +38,6 @@ function Dashboard() {
     //condition checking to change state from true to false and vice versa
     menuCollapse ? setMenuCollapse(false) : setMenuCollapse(true);
   };
-  // const queryParams = new URLSearchParams(window.location.search);
-
-  // const email = queryParams.get("email");
-
-  
 
   const [user, loading, error] = useAuthState(auth);
   const history = useHistory();
@@ -65,8 +60,6 @@ function Dashboard() {
   const email = queryParams.get("email");
 
   const [info, setInfo] = useState([]);
-
-  // const q = query(collection(db, "doc"), where("doc_mail", "==", email));
 
   useEffect(
     () =>
@@ -152,14 +145,16 @@ function Dashboard() {
     if (mon1 !== undefined){
       if (mon1_bkd === false){
         mon_a.value = id;
-        mon_a.style.backgroundColor = "#57CC99";
+        mon_a.style.backgroundColor = "#57CC99"; //green
       }
       else{
-        mon_a.style.backgroundColor = "#FE8F8F";
+        mon_a.style.backgroundColor = "#FE8F8F"; //red
+        mon_a.value = id;
       }
     }
-    else{
-      mon_a.style.backgroundColor = "#423F3E";
+    else{ 
+      mon_a.style.backgroundColor = "#423F3E";  //black
+      mon_a.value = id;
     }
 
     if (mon2 !== undefined){
@@ -169,10 +164,12 @@ function Dashboard() {
       }
       else{
         mon_b.style.backgroundColor = "#FE8F8F";
+        mon_b.value = id;
       }
     }
     else{
       mon_b.style.backgroundColor = "#423F3E";
+      mon_b.value = id;
     }
 
     if (mon3 !== undefined){
@@ -182,10 +179,12 @@ function Dashboard() {
       }
       else{
         mon_c.style.backgroundColor = "#FE8F8F";
+        mon_c.value = id;
       }
     }
     else{
       mon_c.style.backgroundColor = "#423F3E";
+      mon_c.value = id;
     }
 
     if (tue1 !== undefined){
@@ -195,10 +194,12 @@ function Dashboard() {
       }
       else{
         tue_a.style.backgroundColor = "#FE8F8F";
+        tue_a.value = id;
       }
     }
     else{
       tue_a.style.backgroundColor = "#423F3E";
+      tue_a.value = id;
     }
 
     if (tue2 !== undefined){
@@ -208,10 +209,12 @@ function Dashboard() {
       }
       else{
         tue_b.style.backgroundColor = "#FE8F8F";
+        tue_b.value = id;
       }
     }
     else{
       tue_b.style.backgroundColor = "#423F3E";
+      tue_b.value = id;
     }
 
     if (tue3 !== undefined){
@@ -221,10 +224,12 @@ function Dashboard() {
       }
       else{
         tue_c.style.backgroundColor = "#FE8F8F";
+        tue_c.value = id;
       }
     }
     else{
       tue_c.style.backgroundColor = "#423F3E";
+      tue_c.value = id;
     }
 
     if (wed1 !== undefined){
@@ -234,10 +239,12 @@ function Dashboard() {
       }
       else{
         wed_a.style.backgroundColor = "#FE8F8F";
+        wed_a.value = id;
       }
     }
     else{
       wed_a.style.backgroundColor = "#423F3E";
+      wed_a.value = id;
     }
 
     if (wed2 !== undefined){
@@ -247,10 +254,12 @@ function Dashboard() {
       }
       else{
         wed_b.style.backgroundColor = "#FE8F8F";
+        wed_b.value = id;
       }
     }
     else{
       wed_b.style.backgroundColor = "#423F3E";
+      wed_b.value = id;
     }
 
     if (wed3 !== undefined){
@@ -260,10 +269,12 @@ function Dashboard() {
       }
       else{
         wed_c.style.backgroundColor = "#FE8F8F";
+        wed_c.value = id;
       }
     }
     else{
       wed_c.style.backgroundColor = "#423F3E";
+      wed_c.value = id;
     }
 
     if (thu1 !== undefined){
@@ -273,10 +284,12 @@ function Dashboard() {
       }
       else{
         thu_a.style.backgroundColor = "#FE8F8F";
+        thu_a.value = id;
       }
     }
     else{
       thu_a.style.backgroundColor = "#423F3E";
+      thu_a.value = id;
     }
 
     if (thu2 !== undefined){
@@ -286,10 +299,12 @@ function Dashboard() {
       }
       else{
         thu_b.style.backgroundColor = "#FE8F8F";
+        thu_b.value = id;
       }
     }
     else{
       thu_b.style.backgroundColor = "#423F3E";
+      thu_b.value = id;
     }
 
     if (thu3 !== undefined){
@@ -299,10 +314,12 @@ function Dashboard() {
       }
       else{
         thu_c.style.backgroundColor = "#FE8F8F";
+        thu_c.value = id;
       }
     }
     else{
       thu_c.style.backgroundColor = "#423F3E";
+      thu_c.value = id;
     }
 
     if (fri1 !== undefined){
@@ -312,10 +329,12 @@ function Dashboard() {
       }
       else{
         fri_a.style.backgroundColor = "#FE8F8F";
+        fri_a.value = id;
       }
     }
     else{
       fri_a.style.backgroundColor = "#423F3E";
+      fri_a.value = id;
     }
 
     if (fri2 !== undefined){
@@ -325,10 +344,12 @@ function Dashboard() {
       }
       else{
         fri_b.style.backgroundColor = "#FE8F8F";
+        fri_b.value = id;
       }
     }
     else{
       fri_b.style.backgroundColor = "#423F3E";
+      fri_b.value = id;
     }
 
     if (fri3 !== undefined){
@@ -338,10 +359,12 @@ function Dashboard() {
       }
       else{
         fri_c.style.backgroundColor = "#FE8F8F";
+        fri_c.value = id;
       }
     }
     else{
       fri_c.style.backgroundColor = "#423F3E";
+      fri_c.value = id;
     }
 
     if (sat1 !== undefined){
@@ -351,10 +374,12 @@ function Dashboard() {
       }
       else{
         sat_a.style.backgroundColor = "#FE8F8F";
+        sat_a.value = id;
       }
     }
     else{
       sat_a.style.backgroundColor = "#423F3E";
+      sat_a.value = id;
     }
 
     if (sat2 !== undefined){
@@ -364,10 +389,12 @@ function Dashboard() {
       }
       else{
         sat_b.style.backgroundColor = "#FE8F8F";
+        sat_b.value = id;
       }
     }
     else{
       sat_b.style.backgroundColor = "#423F3E";
+      sat_b.value = id;
     }
 
     if (sat3 !== undefined){
@@ -377,10 +404,12 @@ function Dashboard() {
       }
       else{
         sat_c.style.backgroundColor = "#FE8F8F";
+        sat_c.value = id;
       }
     }
     else{
       sat_c.style.backgroundColor = "#423F3E";
+      sat_c.value = id;
     }
 
     if (sun1 !== undefined){
@@ -390,10 +419,12 @@ function Dashboard() {
       }
       else{
         sun_a.style.backgroundColor = "#FE8F8F";
+        sun_a.value = id;
       }
     }
     else{
       sun_a.style.backgroundColor = "#423F3E";
+      sun_a.value = id;
     }
 
     if (sun2 !== undefined){
@@ -403,10 +434,12 @@ function Dashboard() {
       }
       else{
         sun_b.style.backgroundColor = "#FE8F8F";
+        sun_b.value = id;
       }
     }
     else{
       sun_b.style.backgroundColor = "#423F3E";
+      sun_b.value = id;
     }
 
     if (sun3 !== undefined){
@@ -416,10 +449,12 @@ function Dashboard() {
       }
       else{
         sun_c.style.backgroundColor = "#FE8F8F";
+        sun_c.value = id;
       }
     }
     else{
       sun_c.style.backgroundColor = "#423F3E";
+      sun_c.value = id;
     }
   }
 
@@ -427,6 +462,7 @@ function Dashboard() {
   const test = () => {
     var f = document.getElementById("mon_a");
     console.log(f.value);
+    console.log(f.textContent);
   }
 
   return ( 
