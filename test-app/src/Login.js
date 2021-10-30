@@ -18,7 +18,7 @@ function Login() {
       // maybe trigger a loading screen
       return;
     }
-    if (user) history.replace("/Dashboard?email=" + email);
+    if (user) history.replace("/Dashboard_dentist?email=" + email);
   }, [user, loading]);
   return (
     <div class="signIn_body">
@@ -78,6 +78,7 @@ function Login() {
         </div>
         <div>
           <div>
+            {/* <Link to="/"> */}
             <button
               type="submit"
               form="form1"

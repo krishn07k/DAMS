@@ -4,6 +4,7 @@ import Login from "./Login";
 import Register from "./Register";
 import Reset from "./Reset";
 import Dashboard from "./Dashboard";
+import Dashboard_dentist from "./Dashboard_dentist";
 import settings_page from "./settings_page";
 import profile_pg from "./profile_page-k";
 import help_pg from "./help_page-k";
@@ -37,6 +38,11 @@ function App() {
           <Route exact path="/register" component={Register} />
           <Route exact path="/reset" component={Reset} />
           <Route exact path="/dashboard" component={Dashboard} />
+          <Route
+            exact
+            path="/dashboard_dentist"
+            component={Dashboard_dentist}
+          />
           <Route exact path="/settings" component={settings_page} />
           <Route exact path="/profile_pg" component={profile_pg} />
           <Route exact path="/appearances" component={appearances} />
