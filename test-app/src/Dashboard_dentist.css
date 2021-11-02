@@ -121,7 +121,7 @@ a:hover {
   }
 }
 
-.dsh_main_content {
+.dsh_d_main_content {
   position: absolute;
   box-sizing: border-box;
   float: right;
@@ -130,7 +130,7 @@ a:hover {
   /* border: 3px solid black; */
 }
 
-.dsh_title {
+.dsh_d_title {
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -142,15 +142,21 @@ a:hover {
   margin-right: auto;
 }
 
-.dsh_doc_list_main {
+.dsh_d_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.dsh_d_doc_list_main {
   position: absolute;
   top: 100px;
   height: 600px;
   width: 500px;
-  margin-left: 250px;
+  /* margin-left: 33.5%; */
   border: 4px solid black;
   border-radius: 10px;
-  overflow: scroll;
+  /* overflow: scroll; */
   -ms-overflow-style: none;
 }
 
