@@ -30,6 +30,7 @@ function cancel(a, b, c, d) {
   var y = document.getElementById(c);
   var z = document.getElementById(d);
   w.hidden = false;
+  w.readOnly = true;
   x.hidden = false;
   y.hidden = true;
   z.hidden = true;
@@ -519,10 +520,10 @@ function Schedular() {
                             </td>
                             <td>
                               <input className="sch_time"
-                                type="text"
+                                type="time"
                                 readOnly
                                 id="sch_mon_a2_1"
-                                placeholder={doc.doc_mon_1}
+                                value={doc.doc_mon_1}
                                 onChange={(e) => set_mon_1(e.target.value)}
                               />
                             </td>
@@ -596,10 +597,10 @@ function Schedular() {
                             </td>
                             <td>
                               <input className="sch_time"
-                                type="text"
+                                type="time"
                                 readOnly
                                 id="sch_mon_a2_2"
-                                placeholder={doc.doc_mon_2}
+                                value={doc.doc_mon_2}
                                 onChange={(e) => set_mon_2(e.target.value)}
                               />
                             </td>
@@ -674,10 +675,10 @@ function Schedular() {
                             </td>
                             <td>
                               <input className="sch_time"
-                                type="text"
+                                type="time"
                                 readOnly
                                 id="sch_mon_a2_3"
-                                placeholder={doc.doc_mon_3}
+                                value={doc.doc_mon_3}
                                 onChange={(e) => set_mon_3(e.target.value)}
                               />
                             </td>
@@ -761,10 +762,10 @@ function Schedular() {
                             </td>
                             <td>
                               <input className="sch_time"
-                                type="text"
+                                type="time"
                                 readOnly
                                 id="sch_tue_a2_1"
-                                placeholder={doc.doc_tue_1}
+                                value={doc.doc_tue_1}
                                 onChange={(e) => set_tue_1(e.target.value)}
                               />
                             </td>
@@ -839,11 +840,11 @@ function Schedular() {
                             </td>
                             <td>
                               <input className="sch_time"
-                                type="text"
+                                type="time"
                                 readOnly
                                 id="sch_tue_a2_2"
                                 onChange={(e) => set_tue_2(e.target.value)}
-                                placeholder={doc.doc_tue_2}
+                                value={doc.doc_tue_2}
                               />
                             </td>
                             <td>
@@ -917,11 +918,11 @@ function Schedular() {
                             </td>
                             <td>
                               <input className="sch_time"
-                                type="text"
+                                type="time"
                                 readOnly
                                 id="sch_tue_a2_3"
                                 onChange={(e) => set_tue_3(e.target.value)}
-                                placeholder={doc.doc_tue_3}
+                                value={doc.doc_tue_3}
                               />
                             </td>
                             <td>
@@ -1004,11 +1005,11 @@ function Schedular() {
                             </td>
                             <td>
                               <input className="sch_time"
-                                type="text"
+                                type="time"
                                 readOnly
                                 id="sch_wed_a2_1"
                                 onChange={(e) => set_wed_1(e.target.value)}
-                                placeholder={doc.doc_wed_1}
+                                value={doc.doc_wed_1}
                               />
                             </td>
                             <td>
@@ -1082,11 +1083,11 @@ function Schedular() {
                             </td>
                             <td>
                               <input className="sch_time"
-                                type="text"
+                                type="time"
                                 readOnly
                                 id="sch_wed_a2_2"
                                 onChange={(e) => set_wed_2(e.target.value)}
-                                placeholder={doc.doc_wed_2}
+                                value={doc.doc_wed_2}
                               />
                             </td>
                             <td>
@@ -1160,10 +1161,10 @@ function Schedular() {
                             </td>
                             <td>
                               <input className="sch_time"
-                                type="text"
+                                type="time"
                                 readOnly
                                 id="sch_wed_a2_3"
-                                placeholder={doc.doc_wed_3}
+                                value={doc.doc_wed_3}
                                 onChange={(e) => set_wed_3(e.target.value)}
                               />
                             </td>
@@ -1247,10 +1248,10 @@ function Schedular() {
                             </td>
                             <td>
                               <input className="sch_time"
-                                type="text"
+                                type="time"
                                 readOnly
                                 id="sch_thu_a2_1"
-                                placeholder={doc.doc_thu_1}
+                                value={doc.doc_thu_1}
                                 onChange={(e) => set_thu_1(e.target.value)}
                               />
                             </td>
@@ -1325,10 +1326,10 @@ function Schedular() {
                             </td>
                             <td>
                               <input className="sch_time"
-                                type="text"
+                                type="time"
                                 readOnly
                                 id="sch_thu_a2_2"
-                                placeholder={doc.doc_thu_2}
+                                value={doc.doc_thu_2}
                                 onChange={(e) => set_thu_2(e.target.value)}
                               />
                             </td>
@@ -1403,11 +1404,11 @@ function Schedular() {
                             </td>
                             <td>
                               <input className="sch_time"
-                                type="text"
+                                type="time"
                                 readOnly
                                 id="sch_thu_a2_3"
                                 onChange={(e) => set_thu_3(e.target.value)}
-                                placeholder={doc.doc_thu_3}
+                                value={doc.doc_thu_3}
                               />
                             </td>
                             <td>
@@ -1490,11 +1491,11 @@ function Schedular() {
                             </td>
                             <td>
                               <input className="sch_time"
-                                type="text"
+                                type="time"
                                 readOnly
                                 id="sch_fri_a2_1"
                                 onChange={(e) => set_fri_1(e.target.value)}
-                                placeholder={doc.doc_fri_1}
+                                value={doc.doc_fri_1}
                               />
                             </td>
                             <td>
@@ -1568,10 +1569,10 @@ function Schedular() {
                             </td>
                             <td>
                               <input className="sch_time"
-                                type="text"
+                                type="time"
                                 readOnly
                                 id="sch_fri_a2_2"
-                                placeholder={doc.doc_fri_2}
+                                value={doc.doc_fri_2}
                                 onChange={(e) => set_fri_2(e.target.value)}
                               />
                             </td>
@@ -1646,11 +1647,11 @@ function Schedular() {
                             </td>
                             <td>
                               <input className="sch_time"
-                                type="text"
+                                type="time"
                                 readOnly
                                 id="sch_fri_a2_3"
                                 onChange={(e) => set_fri_3(e.target.value)}
-                                placeholder={doc.doc_fri_3}
+                                value={doc.doc_fri_3}
                               />
                             </td>
                             <td>
@@ -1733,10 +1734,10 @@ function Schedular() {
                             </td>
                             <td>
                               <input className="sch_time"
-                                type="text"
+                                type="time"
                                 readOnly
                                 id="sch_sat_a2_1"
-                                placeholder={doc.doc_sat_1}
+                                value={doc.doc_sat_1}
                                 onChange={(e) => set_sat_1(e.target.value)}
                               />
                             </td>
@@ -1811,10 +1812,10 @@ function Schedular() {
                             </td>
                             <td>
                               <input className="sch_time"
-                                type="text"
+                                type="time"
                                 readOnly
                                 id="sch_sat_a2_2"
-                                placeholder={doc.doc_sat_2}
+                                value={doc.doc_sat_2}
                                 onChange={(e) => set_sat_2(e.target.value)}
                               />
                             </td>
@@ -1889,10 +1890,10 @@ function Schedular() {
                             </td>
                             <td>
                               <input className="sch_time"
-                                type="text"
+                                type="time"
                                 readOnly
                                 id="sch_sat_a2_3"
-                                placeholder={doc.doc_sat_3}
+                                value={doc.doc_sat_3}
                                 onChange={(e) => set_sat_3(e.target.value)}
                               />
                             </td>
@@ -1976,10 +1977,10 @@ function Schedular() {
                             </td>
                             <td>
                               <input className="sch_time"
-                                type="text"
+                                type="time"
                                 readOnly
                                 id="sch_sun_a2_1"
-                                placeholder={doc.doc_sun_1}
+                                value={doc.doc_sun_1}
                                 onChange={(e) => set_sun_1(e.target.value)}
                               />
                             </td>
@@ -2054,10 +2055,10 @@ function Schedular() {
                             </td>
                             <td>
                               <input className="sch_time"
-                                type="text"
+                                type="time"
                                 readOnly
                                 id="sch_sun_a2_2"
-                                placeholder={doc.doc_sun_2}
+                                value={doc.doc_sun_2}
                                 onChange={(e) => set_sun_2(e.target.value)}
                               />
                             </td>
@@ -2132,10 +2133,10 @@ function Schedular() {
                             </td>
                             <td>
                               <input className="sch_time"
-                                type="text"
+                                type="time"
                                 readOnly
                                 id="sch_sun_a2_3"
-                                placeholder={doc.doc_sun_3}
+                                value={doc.doc_sun_3}
                                 onChange={(e) => set_sun_3(e.target.value)}
                               />
                             </td>

@@ -88,7 +88,7 @@ function Dashboard_dentist() {
             </div>
             <Menu iconShape="square">
               <MenuItem icon={<FaUser />}>
-                <Link to={"/profile_pg?email=" + email}>Profile</Link>
+                <Link to={"/profile_pg_dentist?email=" + email}>Profile</Link>
               </MenuItem>
               <MenuItem icon={<FaCalendar />}>Appointment</MenuItem>
               <MenuItem icon={<FaCalendarCheck />}>Follow-Ups</MenuItem>

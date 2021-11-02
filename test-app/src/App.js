@@ -6,7 +6,8 @@ import Reset from "./Reset";
 import Dashboard from "./Dashboard";
 import Dashboard_dentist from "./Dashboard_dentist";
 import settings_page from "./settings_page";
-import profile_pg from "./profile_page-k";
+import profile_pg_dentist from "./profile_page-k";
+import profile_pg_gen from "./profile_page_gen";
 import help_pg from "./help_page-k";
 import not_pg from "./notification_page-k";
 import help_center from "./help_center-k";
@@ -27,6 +28,8 @@ import change_userid from "./changing_user_id-h";
 import ceum from "./change_email_using_mobile-h";
 import signup_dentist from "./signup_dentist-k";
 import signup_general_user from "./signup_general_user-k";
+import Appointments_gen from "./appointments_gen";
+import Appointment_pg from "./appointments_pg";
 
 function App() {
   return (
@@ -44,7 +47,8 @@ function App() {
             component={Dashboard_dentist}
           />
           <Route exact path="/settings" component={settings_page} />
-          <Route exact path="/profile_pg" component={profile_pg} />
+          <Route exact path="/profile_pg_dentist" component={profile_pg_dentist} />
+          <Route exact path="/profile_pg_gen" component={profile_pg_gen} />
           <Route exact path="/appearances" component={appearances} />
           <Route exact path="/help_pg" component={help_pg} />
           <Route exact path="/about" component={About} />
@@ -64,11 +68,9 @@ function App() {
           <Route exact path="/change_mobile" component={change_mobile} />
           <Route exact path="/delete_acc" component={delete_account} />
           <Route exact path="/signup_dentist" component={signup_dentist} />
-          <Route
-            exact
-            path="/signup_general_user"
-            component={signup_general_user}
-          />
+          <Route exact path="/appointments_gen" component={Appointments_gen} />
+          <Route exact path="/appointments" component={Appointment_pg} />
+          <Route exact path="/signup_general_user" component={signup_general_user} />
         </Switch>
       </Router>
     </div>

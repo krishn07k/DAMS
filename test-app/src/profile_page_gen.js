@@ -21,7 +21,7 @@ function Profile_page_dentist() {
 
   const [info, setInfo] = useState([]);
   console.log(info);
-  const q = query(collection(db, "doc"), where("doc_mail", "==", email));
+  const q = query(collection(db, "gn_user_doc"), where("gn_user_doc_mail", "==", email));
 
   useEffect(
     () =>
@@ -58,14 +58,14 @@ function Profile_page_dentist() {
         <hr />
         <div className="pp_container">
           {info.map((doc) => (
-            <div key={doc.doc_id}>
+            <div key={doc.gn_user_doc_id}>
               <div className="pp_box">
                 <label for="name">
                   <b>Name</b>
                   <input
                     className="pp_inputfield"
                     type="text"
-                    value={doc.doc_name}
+                    value={doc.gn_user_doc_name}
                     name="name"
                   ></input>
                   <br />
@@ -74,25 +74,8 @@ function Profile_page_dentist() {
                 <button
                   className="pp_Edit"
                   type="submit"
-                  onClick={() => handleEdit(doc.doc_id)}
+                  onClick={() => handleEdit(doc.gn_user_doc_id)}
                 >
-                  Edit
-                </button>
-
-                <br />
-
-                <label for="address">
-                  <b>Address</b>
-                  <input
-                    className="pp_inputfield"
-                    type="text"
-                    value={doc.doc_address}
-                    name="address"
-                  />
-                  <br />
-                </label>
-
-                <button className="pp_Edit" type="submit">
                   Edit
                 </button>
 
@@ -103,7 +86,7 @@ function Profile_page_dentist() {
                   <input
                     className="pp_inputfield"
                     type="number"
-                    value={doc.doc_age}
+                    value={doc.gn_user_doc_age}
                     name="age"
                   />
                   <br />
